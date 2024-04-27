@@ -214,3 +214,25 @@ span {
 	letter-spacing: 0.2px;
 	padding-bottom: 40px;
 }
+/* MAIN */
+
+.main-content {
+	max-width: 335px;
+	width: 100%;
+}
+.main-content__container {
+	text-align: center;
+}
+
+.main-content__list {
+	padding-left: 95px;
+	padding-right: 91px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	display: flex;
+	align-items: center;
+}
+
+.main-content__item:not(:last-child) {
+	margin-right: 55px;
+}
