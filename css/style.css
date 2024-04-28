@@ -3,6 +3,7 @@
 	--btn-color: #8d5cf6;
 	--blue-color: #26335d;
 	--red-color: #e74040;
+	--black-color: #737373;
 }
 
 /* FONTS */
@@ -43,6 +44,8 @@ body {
 }
 
 body {
+	min-width: 1440px;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	height: 100%;
@@ -54,7 +57,7 @@ body {
 }
 
 .container {
-	max-width: 1100px;
+	min-width: 1440px;
 	width: 100%;
 	padding-left: 25px;
 	padding-right: 25px;
@@ -109,7 +112,7 @@ a {
 }
 
 .site-wrapper {
-	background-color: var(--btn-color);
+	background-color: var(--blue-color);
 }
 
 .site-header__wrapper {
@@ -130,6 +133,7 @@ a {
 span {
 	margin-left: 15px;
 }
+
 .site-header__container {
 	color: var(--white-color);
 }
@@ -235,4 +239,345 @@ span {
 
 .main-content__item:not(:last-child) {
 	margin-right: 55px;
+}
+
+/* SERVICES */
+
+.services-content__container {
+	max-width: 1050px;
+	width: 100%;
+}
+
+.services-content {
+	display: flex;
+	padding-left: 156px;
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
+
+.services-content__info {
+	min-width: 381px;
+	width: 100%;
+	padding-top: 33px;
+	padding-left: 156px;
+}
+
+.services-content__hr {
+	padding: 0;
+	margin: 0;
+	border: none;
+	width: 94px;
+	height: 7px;
+	line-height: 7px;
+	background-color: var(--red-color);
+}
+
+.services-content__title {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.25;
+	letter-spacing: 0.2px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.services-content__paragraph {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.4;
+	letter-spacing: 0.2px;
+}
+
+.services-content__link {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.2px;
+	padding-top: 35px;
+}
+
+/* ACTION */
+
+.site-action__container {
+	max-width: 1050px;
+	width: 100%;
+}
+
+.site-action {
+	display: flex;
+	padding-left: 156px;
+	padding-top: 160px;
+	padding-bottom: 144px;
+}
+
+.site-action__info {
+	min-width: 507px;
+	width: 100%;
+	padding-top: 127px;
+}
+
+.site-action__title {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.25;
+	letter-spacing: 0.2px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.site-action__paragraph {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.4;
+	letter-spacing: 0.2px;
+}
+
+/* EDUCATION */
+
+.education__container {
+	padding-right: 195px;
+	padding-left: 195px;
+}
+
+.education__content {
+	padding-top: 112px;
+}
+
+.education__info {
+	padding-top: 112px;
+	min-width: 691px;
+	width: 100%;
+}
+
+.education__text {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.2px;
+	color: var(--btn-color);
+}
+
+.edducation__title {
+	font-weight: 700;
+	font-style: 40px;
+	line-height: 1.25;
+	letter-spacing: 0.2px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.education__paragraph {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.2px;
+}
+
+.education__album {
+	display: flex;
+	padding-top: 112px;
+	padding-bottom: 112px;
+}
+
+.education__img {
+	padding-right: 30px;
+}
+
+/* LIVE ACTION */
+
+.live-actin__container {
+	padding-left: 195px;
+	padding-right: 195px;
+}
+
+.live-action__info {
+	min-width: 691px;
+	width: 100%;
+}
+
+.live-action__text {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.2px;
+	color: var(--btn-color);
+}
+
+.live-action__title {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.25;
+	letter-spacing: 0.2px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.live-action__paragraph {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.6;
+	letter-spacing: 0.2px;
+}
+
+.live-action__list {
+	display: flex;
+	padding-top: 96px;
+}
+
+.live-action__img {
+	padding-right: 30px;
+}
+
+/* POPULAR */
+
+.popular__container {
+	padding-left: 195px;
+	padding-right: 195px;
+}
+
+.popular__info {
+	min-width: 691px;
+	width: 100%;
+	padding-top: 112px;
+	padding-bottom: 112px;
+}
+
+.popular__text {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.2px;
+	color: var(--btn-color);
+}
+
+.popular__title {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.25;
+	letter-spacing: 0.2px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.popular__paragraph {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.4;
+	letter-spacing: 0.2px;
+}
+
+.popular__list {
+	min-width: 1049px;
+	width: 100%;
+	display: flex;
+	padding-bottom: 112px;
+}
+
+.popular__img:not(:last-child) {
+	padding-right: 30px;
+}
+
+/* COURSES */
+
+.courses__container {
+	padding-left: 195px;
+	padding-right: 195px;
+}
+
+.courses__info {
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.courses__text {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.2px;
+	color: var(--btn-color);
+}
+
+.courses__title {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.25;
+	letter-spacing: 0.2px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.courses__paragraph {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.4;
+	letter-spacing: 0.2px;
+}
+
+.courses-footer {
+	justify-content: center;
+	display: flex;
+	padding-bottom: 160px;
+}
+
+/* SITE FOOTER */
+
+.site-footer__info {
+	display: flex;
+	padding-left: 195px;
+}
+
+.site-footer__list:not(:last-child) {
+	padding-right: 30px;
+}
+
+.site-footer__title {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+}
+
+.site-footer__link {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.2px;
+	color: var(--white-color);
+}
+
+.site-footer-bottom {
+	border: none;
+	background-color: var(--white-color);
+}
+
+.site-footer-bottom__container {
+	max-height: 74px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.site-footer-bottom__title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.2px;
+	color: var(--black-color);
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 195px;
+}
+
+.site-footer-bottom__list {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	display: flex;
+	justify-content: right;
+}
+
+.site-footer-bottom__item {
+	align-items: right;
+}
+
+.site-footer-bottom__item:not(:last-child) {
+	padding-right: 20px;
 }
